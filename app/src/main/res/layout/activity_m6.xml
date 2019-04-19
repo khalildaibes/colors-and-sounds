@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.black_000.myapplication.M6Activity"
+    android:background="@drawable/colorsbg">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:layout_gravity="center_horizontal|bottom" >
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="indigo"
+                    android:id="@+id/PINK1"
+                    android:checked="false"
+                    android:textSize="24dp"
+                android:textColor="#e700d8" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="pink"
+                    android:id="@+id/PINK"
+                    android:checked="false"
+                    android:textSize="24dp"
+                    android:textColor="#e700d8" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dark blue"
+                    android:id="@+id/PINK2"
+                    android:checked="false"
+                    android:textSize="24dp"
+                    android:textColor="#e700d8" />
+                <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="check"
+                android:id="@+id/check"
+                android:layout_gravity="center_horizontal"
+                android:onClick="Check_asnwer2"
+                android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="227dp"
+            android:layout_height="225dp"
+            android:id="@+id/imageView5"
+            android:layout_gravity="right|top"
+            android:src="#e700d8" />
+
+    </FrameLayout>
+</RelativeLayout>

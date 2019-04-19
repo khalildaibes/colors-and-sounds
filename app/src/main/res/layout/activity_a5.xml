@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.black_000.myapplication.A5Activity"
+    android:background="@drawable/soundbg">
+
+    <RelativeLayout
+        tools:context="com.example.black_000.myapplication.A3Activity"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/soundbg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="play sound"
+            android:id="@+id/button8"
+            android:textSize="@dimen/abc_action_bar_progress_bar_size"
+            android:onClick="play1"
+            android:layout_marginTop="154dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fcf9f9"
+            android:background="#282727" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="check"
+            android:id="@+id/button9"
+            android:onClick="check"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/button9"
+            android:orientation="vertical"
+            android:layout_below="@+id/button8" >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lion"
+                android:id="@+id/radioButton"
+                android:checked="false"
+                android:textColor="#f8fc00"
+                android:textSize="28dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cat"
+                android:id="@+id/cat"
+                android:checked="false"
+                android:textColor="#f8fc00"
+                android:textSize="28dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bat"
+                android:id="@+id/radioButton9"
+                android:checked="false"
+                android:textColor="#f8fc00"
+                android:textSize="28dp" />
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>

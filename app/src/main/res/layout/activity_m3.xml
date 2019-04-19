@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.black_000.myapplication.M3Activity"
+    android:background="@drawable/colorsbg"
+
+    android:nestedScrollingEnabled="false">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:layout_gravity="center_horizontal|bottom" >
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="orange"
+                        android:id="@+id/ORANGE"
+                        android:textStyle="bold"
+                        android:checked="false"
+                        android:textSize="24dp"
+                    android:textColor="#f25810" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="red"
+                    android:id="@+id/orange2"
+                    android:textStyle="bold"
+                    android:checked="false"
+                    android:textSize="24dp"
+                    android:layout_weight="0.95"
+                    android:textColor="#f25810" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yellow"
+                    android:id="@+id/ORANGE1"
+                    android:layout_weight="0.31"
+                    android:textStyle="bold"
+                    android:checked="false"
+                    android:textSize="24dp"
+                    android:textColor="#f25810" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="check"
+                    android:id="@+id/check"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold|italic"
+                    android:textSize="@dimen/abc_action_bar_progress_bar_size"
+                    android:onClick="on_click"/>
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="215dp"
+            android:layout_height="213dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="right|top"
+            android:src="#f25810" />
+
+    </FrameLayout>
+</RelativeLayout>

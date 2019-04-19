@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.black_000.myapplication.M9Activity"
+    android:background="@drawable/colorsbg">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:layout_gravity="center_horizontal|bottom" >
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yellow"
+                    android:id="@+id/RED1"
+                    android:checked="false"
+                    android:textSize="24dp"
+                    android:textColor="#f03030" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="red"
+                    android:id="@+id/RED"
+                    android:checked="false"
+                    android:textSize="@dimen/abc_text_size_headline_material"
+                    android:textColor="#f03030" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="orange"
+                    android:id="@+id/RED2"
+                    android:checked="false"
+                    android:textSize="24dp"
+                    android:textColor="#f03030" />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="check"
+                android:id="@+id/CHECK"
+                android:layout_gravity="center_horizontal"
+                android:onClick="check_answer5"
+                android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="227dp"
+            android:layout_height="225dp"
+            android:id="@+id/imageView8"
+            android:layout_gravity="right|top"
+            android:src="#f03030" />
+
+    </FrameLayout>
+</RelativeLayout>

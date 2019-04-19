@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.black_000.myapplication" >
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".M2Activity" >
+        </activity>
+        <activity android:name=".M3Activity" >
+        </activity>
+        <activity android:name=".M4Activity" >
+        </activity>
+        <activity android:name=".M5Activity" >
+        </activity>
+        <activity android:name=".M6Activity" >
+        </activity>
+        <activity android:name=".M7Activity" >
+        </activity>
+        <activity android:name=".M8Activity" >
+        </activity>
+        <activity android:name=".M9Activity" >
+        </activity>
+        <activity android:name=".M10Activity" >
+        </activity>
+        <activity android:name=".A1Activity" >
+        </activity>
+        <activity android:name=".SignActivity" >
+        </activity>
+        <activity android:name=".LogActivity" >
+        </activity>
+        <activity android:name=".A2Activity" >
+        </activity>
+        <activity android:name=".A3Activity" >
+        </activity>
+        <activity android:name=".A4Activity" >
+        </activity>
+        <activity android:name=".A6Activity" >
+        </activity>
+        <activity android:name=".A5Activity" >
+        </activity>
+        <activity android:name=".A8Activity" >
+        </activity>
+        <activity android:name=".A7Activity" >
+        </activity>
+        <activity android:name=".A10Activity" >
+        </activity>
+        <activity android:name=".ProfActivity" >
+        </activity>
+        <activity android:name=".scoreActivity" >
+        </activity>
+        <activity android:name=".Score_Board_Activity" >
+        </activity>
+        <activity
+            android:name=".Deletea_Activity"
+            android:label="@string/title_activity_deletea_" >
+        </activity>
+        <activity android:name=".Main2Activity" >
+        </activity>
+        <activity android:name=".Deleten" >
+        </activity>
+    </application>
+
+</manifest>
